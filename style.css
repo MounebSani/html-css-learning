@@ -10,3 +10,9 @@ h1 {
 p {
   color: black;
 }
+button {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+  border: none;
+}
