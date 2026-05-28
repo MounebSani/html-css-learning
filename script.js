@@ -1,5 +1,7 @@
 const button = document.querySelector("button");
 
+const message = document.querySelector("#message");
+
 button.addEventListener("click", () => {
-  alert("Button clicked!");
+  message.textContent = "JavaScript changed this text!";
 });
