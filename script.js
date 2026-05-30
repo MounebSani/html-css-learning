@@ -2,10 +2,9 @@ const button = document.querySelector("button");
 
 const message = document.querySelector("#message");
 
+const username = document.querySelector("#username");
+
 button.addEventListener("click", () => {
-  message.textContent = "Style changed!";
-
-  message.style.color = "darkblue";
-
-  message.style.fontSize = "30px";
+  message.textContent =
+    "Welcome " + username.value;
 });
